@@ -5,7 +5,7 @@ cask "kegwatch" do
   url "https://github.com/replikduplik/kegwatch-releases/releases/download/v#{version}/Kegwatch-#{version}.dmg",
       verified: "github.com/replikduplik/kegwatch-releases/"
   name "Kegwatch"
-  desc "Updater for Homebrew, Cask, Mac App Store and Sparkle apps"
+  desc "Updater for Homebrew, Cask, App Store and Sparkle apps"
   homepage "https://replikduplik.github.io/kegwatch-site/"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "kegwatch" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kegwatch.app"
 
