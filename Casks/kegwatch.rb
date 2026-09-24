@@ -1,6 +1,6 @@
 cask "kegwatch" do
-  version "1.4.0"
-  sha256 "b5797fd6d31dc3b1598085e90efb94039214ebc0702c4bbc6364dd44d426fd16"
+  version "1.4.1"
+  sha256 "a5f0b6886edcd42a46cb368b80ed3e6037a0dbef35ceb3f8df95a4871ffaeff4"
 
   url "https://github.com/replikduplik/kegwatch-releases/releases/download/v#{version}/Kegwatch-#{version}.dmg",
       verified: "github.com/replikduplik/kegwatch-releases/"
